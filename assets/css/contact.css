@@ -1,0 +1,220 @@
+/* 
+---------------------------------------------
+page heading
+--------------------------------------------- 
+*/
+
+.contact-form .section-heading h4 {
+  color: #1a191e;
+}
+
+.page-heading {
+  background-image: url(/assets/img/heading-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 215px 0px 120px 0px;
+  text-align: center;
+}
+
+.page-heading h2 {
+  font-size: 56px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.page-heading .div-dec {
+  width: 80px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #fff;
+  margin: 20px auto 0 auto;
+}
+
+
+/* 
+---------------------------------------------
+contact us page
+--------------------------------------------- 
+*/
+
+section.map {
+    margin-top: 120px;
+}
+
+section.map .info-item {
+  text-align: center;
+  padding: 40px 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -60px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 2;
+  transition: all .5s;
+}
+
+section.map .info-item:hover {
+  margin-top: -70px;
+}
+
+section.map .info-item i {
+  font-size: 36px;
+  color: #43ba7f;
+  margin-bottom: 25px;
+}
+
+section.map .info-item h4 {
+  font-size: 18px;
+  color: #212741;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+section.map .info-item a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #43ba7f;
+  transition: all 0.3s;
+}
+
+section.map .info-item a:hover {
+  color: #1a191e;
+}
+
+.contact-form .section-heading h4 {
+  font-size: 30px;
+}
+
+#contact-page input {
+  width: 100%;
+  height: 50px;
+  background-color: #f7f7f7;
+  color: #212741;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 15px;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 30px;
+  border: 1px solid #43ba7f;
+}
+
+#contact-page textarea {
+  width: 100%;
+  height: 180px;
+  max-height: 24px;
+  min-height: 150px;
+  background-color: #f7f7f7;
+  color: #212741;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 15px;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 30px;
+  border: 1px solid #43ba7f;
+
+}
+
+#contact-page input::placeholder, 
+#contact-page textarea::placeholder {
+  color: #212741;
+}
+#contact-page button.orange-button {
+  font-size: 14px;
+  color: #fff;
+  background-color: #43ba7f;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  border: none;
+  transition: all .3s;
+}
+
+#contact-page button.orange-button:hover {
+  background-color: #43ba7f;
+  transform: scale(1.05);
+}
+
+.contact-form {
+    margin-top: 50px;
+    /* all: unset; */
+    background-color: #fff;
+    margin-bottom: 120px;
+}
+
+/* Responsividade para Section Map */
+@media (max-width: 991px) {
+  section.map {
+    margin-top: 80px;
+  }
+
+  section.map .info-item {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 30px 20px;
+  }
+
+  section.map .info-item:hover {
+    margin-top: 0;
+    transform: translateY(-5px);
+  }
+
+  section.map .info-item i {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  section.map .info-item h4 {
+    font-size: 16px;
+  }
+
+  section.map .info-item a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  section.map {
+    margin-top: 60px;
+  }
+
+  section.map .info-item {
+    padding: 25px 15px;
+    margin-bottom: 15px;
+  }
+
+  section.map .info-item i {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+
+  section.map .info-item h4 {
+    font-size: 15px;
+  }
+
+  section.map .info-item a {
+    font-size: 13px;
+  }
+
+  .contact-form {
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+
+  .contact-form .section-heading h4 {
+    font-size: 24px;
+  }
+
+  #contact-page input,
+  #contact-page textarea {
+    margin-bottom: 20px;
+  }
+}
